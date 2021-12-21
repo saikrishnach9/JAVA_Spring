@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('fetch code from github') {
             steps {
-                git 'https://github.com/nihaldevops/JAVA_Spring.git'
+                git 'https://github.com/saikrishnach9/JAVA_Spring.git'
             }
         }
         stage('build a package') {
